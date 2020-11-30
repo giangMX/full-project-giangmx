@@ -19,7 +19,11 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatDatepickerModule } from '@angular/material/datepicker';
-import {MatTableModule} from '@angular/material/table';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [],
@@ -43,7 +47,12 @@ import {MatTableModule} from '@angular/material/table';
     MatDividerModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatTableModule
+    MatTableModule,
+    MatPaginatorModule,
+    ReactiveFormsModule,
+    MatDialogModule,
+    MatSortModule,
+    FormsModule
   ],
   exports: [
     MatButtonModule,
@@ -65,7 +74,12 @@ import {MatTableModule} from '@angular/material/table';
     MatDividerModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatTableModule
+    MatTableModule,
+    MatPaginatorModule,
+    ReactiveFormsModule,
+    MatDialogModule,
+    MatSortModule,
+    FormsModule
   ]
 })
 export class MaterialModule {}
